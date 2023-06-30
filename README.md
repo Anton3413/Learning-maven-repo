@@ -1,3 +1,3 @@
 # learning-maven
 
-Detailed learninп of Maven: Lifecycles, plugins, builds, dependencies etc.
+Detailed learning of Maven: Lifecycles, Plugins, Builds, POM-structure, Dependencies etc.
