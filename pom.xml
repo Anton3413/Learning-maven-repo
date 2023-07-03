@@ -15,7 +15,11 @@
   <packaging>pom</packaging>
 
   <name>learning-maven</name>
-  <!-- FIXME change it to the project's website -->
+  <scm>
+    <connection>scm:git:git@github.com:Anton3413/Learning-maven-repo.git</connection>
+    <developerConnection>scm:git:git@github.com:Anton3413/Learning-maven-repo.git</developerConnection>
+    <url>https://github.com/Anton3413/Learning-maven-repo.git</url>
+  </scm>
   <contributors>
     <contributor>
       <name>Anton Bondar</name>
@@ -177,5 +181,12 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-release-plugin</artifactId>
+      <version>3.0.0-M6</version>
+    </plugin>
+    </plugins>
   </build>
 </project>
